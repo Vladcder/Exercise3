@@ -10,6 +10,7 @@ namespace Task2
     {
         static void Main(string[] args)
         {
+
             int n=Convert.ToInt32(Console.ReadLine());
             string ending;
             int N = n % 10;
@@ -17,7 +18,7 @@ namespace Task2
             {
                 ending = "";
             }
-            else if (N > 1&&N <5 && n > 19)
+            else if ((N > 1&&N <5) && (n > 19||n<11))
             {
                 ending = "а";
             }
